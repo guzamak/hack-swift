@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gradio with FastAPI and Jinja2</title>
+    <title>Rife Guard</title>
+    <link id="favicon" rel="icon" type="image/x-icon" href="{{ url_for('static', path='/image/favicon.ico') }}">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         ::-webkit-scrollbar {
@@ -13,7 +14,7 @@
 </head>
 <body>
     <div class="flex flex-col justify-center min-w-screen min-h-screen relative overflow-hidden scrollbar-none">
-        <div class="h-[10vh] w-full max-h- min-h- flex flex-col justify-center items-center bg-[#0B0F19] text-white py-10">
+        <div class="h-[10vh] w-full flex flex-col justify-center items-center bg-[#0B0F19] text-white py-10">
             <h1 class="font-bold opacity-50 text-xl md:text-2xl font-mono">Rice Diseases Classification</h1>
         </div>
         <img src="{{ url_for('static', path='/image/169671a5daec67f08202732bd590c783.gif') }}" 
